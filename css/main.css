@@ -1,4 +1,115 @@
+* {
+	font-family: Rubik, Arial, Sans-serif;
+}
 
 label {
     display: block;
+}
+
+.wrapper {
+
+	width: 90%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+/*Styles for Header*/
+.container-header {
+	text-align: center;
+	border-bottom: 5px solid #303d51;
+	margin-bottom: 3px;
+}
+
+h1 {
+	background-color: #303d51;
+	margin: 0;
+	padding: 1em 0;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+/*Styles for User Form*/
+.container-user{
+	border-top: 2px solid #303d51;
+	border-bottom: 2px solid #303d51;
+	padding: 10px 0 ;
+}
+
+
+/*Styles for inputs*/
+
+input[type=text],
+input[type=email],
+input[type=phone-number],
+select {
+	width: 100%;
+	background-color: #e8e8e8;
+	box-sizing: border-box;
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.small-input input {
+	width: 50%;
+}
+
+label {
+	margin-bottom: 1em;
+}
+
+input,
+select {
+	margin-bottom: 1.2em;
+}
+
+input:focus, select:focus {
+	border: #303d51 solid 2px;
+	outline: none;
+}
+
+input[type=submit] {
+
+	background-color: #40E0D0;
+	color: white;
+	width: 100%;
+	padding: 20px 0;
+	border: 0;
+	border-radius: 5px;
+
+} 
+
+/*Checkbox and Radial allignment*/
+
+.item {
+    display: block;
+    width: 50px;
+    padding: 50px 0;
+}
+label {
+    display: inline;
+}
+input[type=checkbox] {
+    display: inline;
+}
+
+/*Text area*/
+textarea {
+	width: 100%;
+	padding: 40px 0;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	outline: none;
+
+}
+
+.footer {
+	 text-align: center;
+	 padding-bottom: 100px;
+}
+
+.footer-italic {
+	font-style: italic;
 }
