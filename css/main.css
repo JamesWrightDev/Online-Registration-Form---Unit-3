@@ -41,8 +41,9 @@ select {
 	padding: 15px;
 	border-radius: 5px;
 }
-.small-input {
-	width: 300px;
+#zip {
+	width: 30%;
+	display: block;
 }
 label {
 	margin-bottom: 1em;
