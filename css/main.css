@@ -2,8 +2,10 @@
 	font-family: Rubik, Arial, Sans-serif;
 }
 
-.wrapper-bg {
-	background-color: #303d51 
+.bgwrap {
+	background-color: #303d51;
+	height: 105.8px;
+
 }
 
 label {
@@ -26,6 +28,7 @@ h1 {
 	padding: 1em 0;
 	color: white;
 	text-transform: uppercase;
+
 }
 /*Styles for User Form*/
 .container-user{
@@ -50,9 +53,7 @@ select {
 	width: 30%;
 	display: block;
 }
-label {
-	margin-bottom: 1em;
-}
+
 input,select {
 	margin-bottom: 1.2em;
 }
@@ -60,13 +61,18 @@ input:focus, select:focus {
 	border: #303d51 solid 2px;
 	outline: none;
 }
-input[type=submit] {
+button {
 	background-color: #40E0D0;
 	color: white;
 	width: 100%;
 	padding: 20px 0;
-	border: 0;
+	margin-top: 10px;
 	border-radius: 5px;
+	border: 0;
+	-webkit-box-shadow: -1px 6px 18px -9px rgba(0,0,0,0.2);
+	-moz-box-shadow: -1px 6px 18px -9px rgba(0,0,0,0.2);
+	box-shadow: -1px 6px 18px -9px rgba(0,0,0,0.2);
+
 }
 /*Checkbox and Radial allignment*/
 .item {
@@ -98,3 +104,37 @@ textarea {
 	font-style: italic;
 }
 
+@media (min-width: 1024px){
+	input[type=text],
+	input[type=email],
+	input[type=phone-number],
+	input[type=tel],
+	select
+			{
+	display: inline-block;
+	width: 75%;
+
+
+	}
+	form label {
+		
+		width: 24%;
+		display: inline-block;
+		
+
+	}
+
+	#zip {
+	display: inline-block;
+	width: 30%;
+
+
+	}
+
+	.wrapper {
+		max-width: 700px;
+	}
+
+	
+				
+}
