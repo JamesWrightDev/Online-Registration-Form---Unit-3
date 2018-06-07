@@ -8,8 +8,9 @@
 
 }
 
-label {
+.container-user label {
 	display: block;
+	margin-bottom: 1em;
 }
 .wrapper {
 	width: 90%;
@@ -75,17 +76,17 @@ button {
 
 }
 /*Checkbox and Radial allignment*/
-.item {
-	display: block;
-	width: 50px;
-	padding: 50px 0;
+
+.v-alignment{
+	display: inline-block;
 }
-label {
-	display: inline;
+input[type=checkbox],
+input[type=radio] {
+	display: inline-block;
 }
-input[type=checkbox] {
-	display: inline;
-}
+
+
+
 /*Text area*/
 textarea {
 	width: 100%;
@@ -93,12 +94,13 @@ textarea {
 	border-radius: 5px;
 	background-color: #e8e8e8;
 	outline: none;
+	margin-bottom: 20px;
 }
 
 /*Footer*/
 .footer {
 	text-align: center;
-	padding-bottom: 100px;
+	padding-bottom: 90px;
 }
 .footer-italic {
 	font-style: italic;
@@ -116,7 +118,7 @@ textarea {
 
 
 	}
-	form label {
+	.container-user  label {
 		
 		width: 24%;
 		display: inline-block;

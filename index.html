@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 </head>
 <body>
-   
+    <div class=bgwrap>
     <div class="wrapper">
         <div class="container-header">
             <h1>The Code Review</h1>
@@ -177,30 +177,32 @@
                         Wyoming
                     </option>
                 </select> <label for="zip">Zip Code</label> <input class="small-input" id="zip" name="user_zipcode" type="text">
+                </div>
                 <h2>Newsletter</h2>
                 <p>Select the newsletter you would like to recieve</p>
-                <div class="input-alignment"></div>
+                
                 <div class="input-v-align">
-                    <input id="htmlNews" name="subscribe" type="checkbox" value="htmlNews"> <label for="htmlNews">HTML News</label>
+                    <input id="htmlNews" name="subscribe" type="checkbox" value="htmlNews"> <label for="htmlNews" class="v-alignment">HTML News</label>
                 </div>
                 <div class="input-v-align">
-                    <input id="cssNews" name="subscribe" type="checkbox" value="newsletter"> <label for="cssNews">CSS News</label>
+                    <input id="cssNews" name="subscribe" type="checkbox" value="newsletter"> <label for="cssNews" class="v-alignment">CSS News</label>
                 </div>
                 <div class="input-v-align">
-                    <input id="jsNews" name="subscribe" type="checkbox" value="newsletter"> <label for="jsNews">Javascript News</label>
+                    <input id="jsNews" name="subscribe" type="checkbox" value="newsletter"> <label for="jsNews" v-alignment>Javascript News</label>
                 </div>
            
-        </div>
+        
         <p>Newsletter Format</p>
         <div class="input-v-align">
-            <input id="htmlFormat" name="subscribe" type="radio" value="newsletter"> <label for="htmlFormat">HTML</label>
+            <input id="htmlFormat" name="subscribe" type="radio" value="newsletter"> <label for="htmlFormat" v-alignment>HTML</label>
         </div>
         <div class="input-v-align">
-            <input id="plainFormat" name="subscribe" type="radio" value="newsletter"> <label for="plainFormat">Plain Text</label>
+            <input id="plainFormat" name="subscribe" type="radio" value="newsletter"> <label for="plainFormat" v-alignment>Plain Text</label>
         </div>
         <textarea id="msg" name="user_message"></textarea> <button type="submit">Sign Up</button>
         <p class="footer">&copy; <span class="footer-italic">Copyright The Code Review</span></p>
          </form>
+    </div>
     </div>
 <!-- <input type="submit"> -->
 </body>
