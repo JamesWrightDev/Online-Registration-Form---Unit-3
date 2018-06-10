@@ -3,7 +3,7 @@
 }
 
 .bgwrap {
-	background-color: #303d51;
+	background-color: #f48942;
 	height: 105.8px;
 
 }
@@ -24,7 +24,7 @@
 	margin-bottom: 3px;
 }
 h1 {
-	background-color: #303d51;
+	background-color: #f48942;
 	margin: 0;
 	padding: 1em 0;
 	color: white;
@@ -61,6 +61,8 @@ input,select {
 input:focus, select:focus {
 	border: #303d51 solid 2px;
 	outline: none;
+	transition: background-color 0.8s ease-in-out;
+	background-color: #ffbd91;
 	
 }
 button {
@@ -80,6 +82,8 @@ button {
 input {
 	text-align: right;
 }
+
+
 /*Checkbox and Radial allignment*/
 
 .v-alignment{
