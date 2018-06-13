@@ -31,6 +31,18 @@ h1 {
 	text-transform: uppercase;
 
 }
+
+legend {
+	color: #303d51;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+fieldset {
+	border: none;
+}
+
 /*Styles for User Form*/
 .container-user{
 	border-top: 2px solid #303d51;
